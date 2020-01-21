@@ -1,0 +1,165 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1, h2{
+    color: rgb(15, 22, 129);
+}
+
+#wrapper p {
+    color: rgb(15, 22, 129);
+}
+
+#wrapper a {
+    color: black;
+    padding-left: 21cm;
+}
+
+#wrapper{
+    font-weight: bold;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px 0;
+
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+#team-list, #add-team, #tabbed-content{
+    margin: 30px;
+}
+
+#team-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#team-list li{
+    color: black;
+    padding: 20px;
+    border-left: 8px solid #ddd;
+    margin: 20px 10px;
+}
+
+#team-list li:hover{
+    border-color: blue;
+}
+
+.Delete{
+    float: right;
+    background: blue;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.Delete:hover{
+    background: black;
+}
+
+#add-team{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-team input{
+
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-team button{
+    border: 1px solid blue;
+    background: blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 5px 120px;
+    border-left: 0;
+    color: white;
+}
+
+#add-team:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-team #hide{
+    width: 30px;
+}
+
+#add-team label{
+    color: black;
+    line-height: 52px;
+}
+
+#tabbed-content p{
+    color: black;
+}
+#tabbed-content li{
+    display: inline-block;
+    padding: 10px 14px;
+    background: blue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#tabbed-content li:hover{
+    background: black;
+}
+
+#tabbed-content .panel{
+    display: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+#tabbed-content .panel.active{
+    display: block;
+}
